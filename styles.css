@@ -1,0 +1,149 @@
+h1 {
+    background-color: rgb(236, 221, 238);
+    color: black;
+    text-align: center;
+    border: 3px solid rgb(209, 160, 223);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    
+}
+  
+body { 
+    margin:0;
+  }
+  
+  
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, rgb(234, 218, 236) 50%, rgb(233, 207, 238) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  .content {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:content-box;
+    width: 700px;
+    height: 700px;
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+}
+ 
+
+button {
+  font-size: 14px;
+  margin-top:1.5em;
+  margin-bottom: 1.5em;
+  background-color: rgb(243, 236, 242);
+  padding: 5px 10px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  text-align: center;
+  border: 3px solid rgb(216, 177, 226);
+  text-align: center;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  border-radius: 15px;}
+
+
+button:hover {
+    background-color: white;
+    text-align: center;}
+
+
+input {
+    border: 1px solid transparent;
+    background-color: #f3f3f3;
+    padding: 12px;
+    font-size: 12x;
+    text-align: center;
+    }
+input[type=submit] {
+    background-color: rgb(143, 21, 116);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    }
+
+input[type=text] {
+    background-color: rgb(208, 123, 241);
+    width: 100%;
+    text-align: center;
+    color: white;
+    }  
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid white;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    font-size: 12x;
+    text-align: center;
+    }
+      
+.autocomplete-items div {
+    padding: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    background-color: white; 
+    text-align: center;
+    font-size: 12x;
+    }
+.autocomplete {
+    position: relative;
+    flex-flow: column wrap;
+    display: inline-block;
+    text-align: center;
+    font-size: 12x;
+    }
+.autocomplete-items div:hover {
+    background-color:white; 
+    text-align: center;
+    font-size: 12x;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.autocomplete-active {
+    background-color:rgb(143, 21, 116) !important; 
+    color: white; 
+    text-align: center;
+    font-size: 12x;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center {
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
